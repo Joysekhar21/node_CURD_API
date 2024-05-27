@@ -23,7 +23,7 @@ app.get('/',(req,res)=>{
 
 connectDb()
 .then(()=>{
-    app.listen(process.env.PORT || 3000,()=>{
+    app.listen(process.env.PORT || 3666,()=>{
         console.log(`Hello from PORT ${process.env.PORT}`)
     });
 })
